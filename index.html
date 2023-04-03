@@ -104,123 +104,18 @@
 
 	<div id="particles"></div>
 	<div id="app" v-cloak>
-		<img src="assets/logo.png" class="logo" alt="Metorik" data-rjs="3">
 		<div class="lead">
-			<h2>Insightful analytics for </h2><img src="assets/woocommerce.png" class="wc-logo" alt="WooCommerce" data-rjs="3" />
+			<h2>2Ai.app </h2>
 			<div class="break"></div>
+			<h2>Future Is Loading </h2>
 		</div>
 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-sm-12 col-xs-12">
 
-					<p>I've spent the last few years working on thousands of WooCommerce stores. Big or small, they all had the same problem. <strong>A lack of actionable analytics.</strong></p>
+					<p>We are building amazing products that will be shown in our website, stay tunned.</strong></p>
 					<p class="fix">I want to fix that.</p>
-					<p>Over the next couple months I'll be building <span class="metorik">Metorik</span>, an all-in-one analytics tool built just for WooCommerce.</p>
-					<p>A single dashboard unifying your store's orders, customers &amp; more. Insight into your store's health through its KPIs. Powerful search, filtering, and exporting. Periodic reports. Beautiful, interactive charts. And this is all just to begin with.</p>
-					<p><strong>Want to know more and be a beta user? Me too!</strong></p>
-
-					<div id="mc_embed_signup">
-						<form method="post" v-if="! success" v-on:submit="emailSignup" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" :class="loading ? 'disabled' : ''" target="_blank" novalidate>
-							<div class="email">
-								<input type="email" placeholder="jarvis@gmail.com" name="EMAIL" class="email" id="mce-EMAIL" v-model="form.email" :disabled="loading" required="required">
-							</div>
-							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_08245b7de774728865eaca274_5d2bffb74e" tabindex="-1" value=""><input type="submit" name="subscribe" /></div>
-							<div name="subscribe" id="mc-embedded-subscribe" :class="'button ' + (loading ? 'disabled' : '')" v-on:click="emailSignup">Keep me updated</div>
-							<div class="loader"></div>
-						</form>
-						<div v-if="success" :class="'result ' + success">
-							{{ message }}
-							<a href="#" v-on:click="tryAgain" class="try-again" v-if="success !== 'success'">Try again?</a>
-						</div>
-					</div>
-
-					<div class="with-love">
-						Join me on this journey,
-						<a href="https://twitter.com/bryceadams" target="_blank">
-							<img src="assets/bryce.jpg" data-rjs="3" /> Bryce 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<ul class="features-list">
-						<li><div class="check"></div> Growth rates</li>
-						<li><div class="check"></div> Customer profiles</li>
-						<li><div class="check"></div> Product insights</li>
-						<li><div class="check"></div> Interactive charts</li>
-						<li><div class="check"></div> Filtered exporting</li>
-						<li><div class="check"></div> Automated reports</li>
-						<li><div class="check"></div> Real-time analytics</li>
-						<li><div class="check"></div> Live KPI calculations</li>
-						<li><div class="check"></div> Blazing fast (really)</li>
-						<li><div class="check"></div> Team members</li>
-					</ul>
-
-					<a href="#" v-on:click="tweetShare" class="twitter-share">
-						<svg viewBox="322 355 335 276" xmlns="http://www.w3.org/2000/svg" class="twitter">
-							  <path d="
-								M 630, 425
-								A 195, 195 0 0 1 331, 600
-								A 142, 142 0 0 0 428, 570
-								A  70,  70 0 0 1 370, 523
-								A  70,  70 0 0 0 401, 521
-								A  70,  70 0 0 1 344, 455
-								A  70,  70 0 0 0 372, 460
-								A  70,  70 0 0 1 354, 370
-								A 195, 195 0 0 0 495, 442
-								A  67,  67 0 0 1 611, 380
-								A 117, 117 0 0 0 654, 363
-								A  65,  65 0 0 1 623, 401
-								A 117, 117 0 0 0 662, 390
-								A  65,  65 0 0 1 630, 425
-								Z"/>
-							</svg>
-							Share Metorik!
-					</a>
-
-					<div class='chart-wrapper hidden-xs hidden-sm'>
-						<div class='chart'>
-							<svg viewbox='0 0 560 260'>
-								<defs>
-									<filter id='dropshadow'>
-										<feGaussianBlur in='SourceAlpha' stdDeviation='3'></feGaussianBlur>
-										<feOffset dx='0' dy='0' result='offsetblur'></feOffset>
-										<feComponentTransfer>
-											<feFuncA slope='0.2' type='linear'></feFuncA>
-										</feComponentTransfer>
-										<feMerge>
-											<feMergeNode></feMergeNode>
-											<feMergeNode in='SourceGraphic'></feMergeNode>
-										</feMerge>
-									</filter>
-								</defs>
-								<g class='datasets'>
-									<path class='dataset' d='M0,260 C0,260 4,252 7,252 C66,252 90,102 139,102 C188,102 205,135 252,135 C299,135 309,89 330,89 C350,89 366,122 404,122 C442,122 431,98 451,98 C470,98 499,213 560,260 L0,259 Z' id='dataset-3'></path>
-									<path class='dataset' d='M0,260 C35,254 63,124 88,124 C114,124 148,163 219,163 C290,163 315,100 359,100 C402,100 520,244 560,259 C560,259 0,259 0,260 Z' id='dataset-2'></path>
-									<path class='dataset' d='M0,260 C0,260 22,199 64,199 C105,199 112,144 154,144 C195,144 194,126 216,126 C237,126 263,184 314,184 C365,183 386,128 434,129 C483,130 511,240 560,260 L0,260 Z' id='dataset-1'></path>
-								</g>
-							</svg>
-						</div>
-					</div>
-
-					<div class="social">
-						<a class="twitter-follow-button" href="https://twitter.com/MetorikHQ" data-show-count="false" data-size="large">Follow @MetorikHQ</a>
-						<div class="fb-like" data-href="https://facebook.com/MetorikHQ" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row footer">
-				<div class="col-md-6">
-					<p>WooCommerce is a registered trademark of Automattic.</p>
-					<p>Metorik is not associated with Automattic.</p>
-				</div>
-				<div class="col-md-6">
-					<div class="proverb">
-						<h3 class="english">There are hardships and there are delights</h3>
-						<h3 class="japanese">苦あれば楽あり</h3>
-						<h4>Japanese proverb</h4>
-					</div>
 				</div>
 			</div>
 		</div>
